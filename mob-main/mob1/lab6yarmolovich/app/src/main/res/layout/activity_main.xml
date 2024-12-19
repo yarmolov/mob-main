@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextUrl"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Journal ID"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonCheckFile"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Check for log" />
+
+    <Button
+        android:id="@+id/buttonDownload"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Download file"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Enter the journal number again"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonOpen"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Open file"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Delete file"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status" />
+</LinearLayout>

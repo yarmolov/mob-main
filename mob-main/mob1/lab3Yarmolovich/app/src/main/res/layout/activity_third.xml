@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextRouteParam1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Параметр 1" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Параметр 2" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Параметр 3" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Параметр 4" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Параметр 5" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Параметр 6" />
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/buttonShowName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Разработал" />
+</LinearLayout>
